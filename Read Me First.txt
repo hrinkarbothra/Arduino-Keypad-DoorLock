@@ -7,27 +7,15 @@ Requirements
 ----------------------------------------------------------------------------------------------------------------------------------
 Connection
 
-Arduino Uno                        Keypad     |     Arduino Uno                        Servo                         
-                                              | 
-                                              |
-                                              |                                               
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-                                              |
-
-
-
-
-
-
+Arduino Uno (Digital PWM)          Keypad     |     Arduino Uno                        Servo                         
+   2                                 1        |        5v                        Positive (Red)
+   3                                 2        |        Gnd                       Negitive (Brown)
+   4                                 3        |        11                        Output (Orange)
+   5                                 4        |                                               
+   6                                 5        |
+   7                                 6        | 
+   8                                 7        |
+   9                                 8        |
 -----------------------------------------------------------------------------------------------------------------------------
  So,Compile and run the code.Then by default password id "123". You can change password ,
  But remember to compile and run after 
